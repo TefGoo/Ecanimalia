@@ -6,6 +6,8 @@ public class EnvironmentSpawner : MonoBehaviour
     public float spawnDelay = 2f;
     public float spawnRange = 3f;
     public float speed = 2f;
+    public float maxSpeed = 10f;
+    public float speedIncreasePerSecond = 0.2f;
     public float spawnPosition = 10f;
     public float despawnPosition = -10f;
     public float pipeGap = 2f;
@@ -13,9 +15,13 @@ public class EnvironmentSpawner : MonoBehaviour
     public float pipeMaxHeight = 2f;
 
     private float lastSpawnTime;
+    private float currentSpeed;
 
     private void Update()
     {
+        // Increase the current speed based on the time elapsed
+        currentSpeed = Mathf.Min(speed + Time.timeSinceLevelLoad * speedIncreasePerSecond, maxSpeed);
+
         // Check if it's time to spawn a new pipe
         if (Time.time - lastSpawnTime >= spawnDelay)
         {
@@ -35,11 +41,11 @@ public class EnvironmentSpawner : MonoBehaviour
 
             // Set the speed and despawn position of the pipes
             PipeMovement topPipeMovement = topPipe.GetComponent<PipeMovement>();
-            topPipeMovement.speed = speed;
+            topPipeMovement.speed = currentSpeed;
             topPipeMovement.despawnPosition = despawnPosition;
 
             PipeMovement bottomPipeMovement = bottomPipe.GetComponent<PipeMovement>();
-            bottomPipeMovement.speed = speed;
+            bottomPipeMovement.speed = currentSpeed;
             bottomPipeMovement.despawnPosition = despawnPosition;
 
             // Flip the bottom pipe vertically

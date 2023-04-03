@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
     public void Menu()
     {
         SceneManager.LoadScene("Title");
-
+        Time.timeScale = 1.0f;
     }
 
     public void QuitGame()
