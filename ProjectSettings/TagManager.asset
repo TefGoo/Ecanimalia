@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Wall
   - Obstacle
+  - Log
+  - Boundary
+  - Car
   layers:
   - Default
   - TransparentFX

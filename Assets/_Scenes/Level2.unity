@@ -902,9 +902,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c2b1438b1ad18449ce997fc0ad95c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 13
+  jumpForce: 12
   crouchScale: 0.5
-  crouchSpeed: 6
+  crouchSpeed: 7
   groundLayers:
     serializedVersion: 2
     m_Bits: 64

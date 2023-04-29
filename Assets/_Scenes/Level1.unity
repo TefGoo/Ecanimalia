@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipePrefab: {fileID: 42575627713400006, guid: d1026038c749323458c93506d4382632, type: 3}
+  pipePrefab2: {fileID: 3904067087748541660, guid: 1e994403c89b66544a918c5684b4da3c, type: 3}
   spawnDelay: 2
   spawnRange: 1
   speed: 4

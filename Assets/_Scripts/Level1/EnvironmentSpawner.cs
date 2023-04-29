@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnvironmentSpawner : MonoBehaviour
 {
     public GameObject pipePrefab;
+    public GameObject pipePrefab2;
     public float spawnDelay = 2f;
     public float spawnRange = 3f;
     public float speed = 2f;
