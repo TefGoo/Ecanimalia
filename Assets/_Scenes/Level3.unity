@@ -708,6 +708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160738430}
+  - component: {fileID: 160738431}
   m_Layer: 0
   m_Name: CarSpawner (1)
   m_TagString: Untagged
@@ -730,6 +731,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160738431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160738428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &251332585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 606888073}
+  - component: {fileID: 606888074}
   m_Layer: 0
   m_Name: CarSpawner (4)
   m_TagString: Untagged
@@ -1249,6 +1273,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &606888074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606888071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &667561054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,6 +1590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732010909}
+  - component: {fileID: 732010910}
   m_Layer: 0
   m_Name: CarSpawner (5)
   m_TagString: Untagged
@@ -1566,6 +1613,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &732010910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732010907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &786339197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 786339199}
+  - component: {fileID: 786339200}
   m_Layer: 0
   m_Name: CarSpawner (2)
   m_TagString: Untagged
@@ -1597,6 +1667,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &786339200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786339197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &966625606
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,6 +3483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939318548}
+  - component: {fileID: 1939318549}
   m_Layer: 0
   m_Name: CarSpawner (3)
   m_TagString: Untagged
@@ -3413,6 +3506,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939318549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939318546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &1972703269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3422,6 +3537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972703271}
+  - component: {fileID: 1972703272}
   m_Layer: 0
   m_Name: CarSpawner (6)
   m_TagString: Untagged
@@ -3444,6 +3560,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972703272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972703269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &2027515960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,6 +3622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2035033302}
+  - component: {fileID: 2035033303}
   m_Layer: 0
   m_Name: CarSpawner
   m_TagString: Untagged
@@ -3506,6 +3645,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035033303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035033300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78009efeea7901b4fae3e7754b2494cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
+  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  minSpawnInterval: 4
+  maxSpawnInterval: 7
+  minSpawnSpeed: 8
+  maxSpawnSpeed: 14
+  spawnOffset: 0.5
+  spawnDirection: 1
 --- !u!1 &2056861254
 GameObject:
   m_ObjectHideFlags: 0
