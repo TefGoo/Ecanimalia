@@ -1,49 +1,39 @@
+using System.Collections;
 using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
-    public GameObject[] obstaclePrefabs; // array of obstacle prefabs to spawn
-    public float minSpawnInterval = 1f; // minimum time between obstacle spawns
-    public float maxSpawnInterval = 3f; // maximum time between obstacle spawns
-    public float obstacleSpeed = 5f; // speed at which obstacles move
+    public GameObject groundObstaclePrefab;
+    public GameObject floatingObstaclePrefab;
+    public Transform obstacleParent;
+    public float groundLevel;
+    public float spawnInterval;
+    public float minSpeed;
+    public float maxSpeed;
 
-    private float spawnTimer; // timer for obstacle spawns
-    private float nextSpawnTime; // time of next obstacle spawn
-
-    void Start()
+    private void Start()
     {
-        // set initial next spawn time
-        nextSpawnTime = Time.time + GetRandomSpawnInterval();
+        StartCoroutine(SpawnObstacles());
     }
 
-    void Update()
+    private IEnumerator SpawnObstacles()
     {
-        // check if it's time to spawn a new obstacle
-        if (Time.time >= nextSpawnTime)
+        while (true)
         {
-            // get random obstacle prefab
-            int index = Random.Range(0, obstaclePrefabs.Length);
-            GameObject obstaclePrefab = obstaclePrefabs[index];
+            yield return new WaitForSeconds(spawnInterval);
+            spawnInterval = Random.Range(2.3f, 3f);
 
-            // instantiate obstacle at spawn point
-            Vector3 spawnPos = transform.position;
-            GameObject obstacle = Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
 
-            // set obstacle speed
-            ObstacleMovement obstacleMovement = obstacle.GetComponent<ObstacleMovement>();
-            if (obstacleMovement != null)
-            {
-                obstacleMovement.speed = obstacleSpeed;
-            }
+            GameObject obstaclePrefab = Random.Range(0, 2) == 0 ? groundObstaclePrefab : floatingObstaclePrefab;
+            float speed = Random.Range(minSpeed, maxSpeed);
 
-            // set next spawn time
-            nextSpawnTime = Time.time + GetRandomSpawnInterval();
+            Vector3 spawnPosition = transform.position;
+            float[] floatingHeights = new float[] { -4f, -3f, -2f };
+            spawnPosition.y = obstaclePrefab == groundObstaclePrefab ? groundLevel : floatingHeights[Random.Range(0, floatingHeights.Length)];
+
+
+            GameObject obstacle = Instantiate(obstaclePrefab, spawnPosition, Quaternion.identity, obstacleParent);
+            obstacle.GetComponent<ObstacleMovement>().Initialize(speed);
         }
-    }
-
-    float GetRandomSpawnInterval()
-    {
-        // return a random spawn interval between the minimum and maximum values
-        return Random.Range(minSpawnInterval, maxSpawnInterval);
     }
 }

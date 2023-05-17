@@ -17,6 +17,7 @@ public class CharacterControllerDino : MonoBehaviour
             StartCoroutine(GameOverWithDelay());
         }
     }
+    public GameObject objectToDestroy;
 
     private IEnumerator GameOverWithDelay()
     {
@@ -38,9 +39,13 @@ public class CharacterControllerDino : MonoBehaviour
 
         // Pause the game
         Time.timeScale = 0;
+
+        // Destroy the specified game object
+        if (objectToDestroy != null)
+        {
+            Destroy(objectToDestroy);
+        }
     }
-
-
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

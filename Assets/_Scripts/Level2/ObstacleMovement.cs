@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class ObstacleMovement : MonoBehaviour
 {
-    public float speed = 5f; // speed at which obstacle moves
+    private float speed;
 
-    void Update()
+    public void Initialize(float obstacleSpeed)
     {
-        // move obstacle to the left
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        speed = obstacleSpeed;
+    }
 
-        // destroy obstacle when it goes off-screen to the left
+    private void Update()
+    {
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+
+        // Remove obstacle if it goes off the screen
         if (transform.position.x < -10f)
         {
             Destroy(gameObject);
