@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carPrefabs:
-  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: aefa1f8aef3561e4892de339527e66b4, type: 3}
   - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
   - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carPrefabs:
-  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: aefa1f8aef3561e4892de339527e66b4, type: 3}
   - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
   - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
@@ -3519,7 +3519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carPrefabs:
-  - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
+  - {fileID: 4318772093784633478, guid: aefa1f8aef3561e4892de339527e66b4, type: 3}
   - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
   - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
