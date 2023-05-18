@@ -4,10 +4,18 @@ using UnityEngine.SceneManagement;
 
 public class CharacterControllerDino : MonoBehaviour
 {
+    public static bool isGameOver = false;
     public Canvas gameOverCanvas;
     public float delayTime = 2f;
 
     private bool isDead = false;
+
+    private ScoreManager scoreManager;
+
+    private void Start()
+    {
+        scoreManager = FindObjectOfType<ScoreManager>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,6 +26,7 @@ public class CharacterControllerDino : MonoBehaviour
         }
     }
     public GameObject objectToDestroy;
+
 
     private IEnumerator GameOverWithDelay()
     {
@@ -30,6 +39,9 @@ public class CharacterControllerDino : MonoBehaviour
         {
             collider.enabled = false;
         }
+
+        // Set the isGameOver flag in the GameManager script
+        isGameOver = true;
 
         // Wait for the delay time
         yield return new WaitForSeconds(delayTime);
@@ -46,6 +58,8 @@ public class CharacterControllerDino : MonoBehaviour
             Destroy(objectToDestroy);
         }
     }
+
+
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
