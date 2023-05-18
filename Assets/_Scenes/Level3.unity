@@ -724,7 +724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160738428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.516504, y: 0.07290816, z: -0.10405421}
+  m_LocalPosition: {x: 25, y: 0.07290816, z: -0.10405421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -745,14 +745,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carPrefabs:
   - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
-  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
-  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
+  - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
   maxSpawnInterval: 7
   minSpawnSpeed: 8
   maxSpawnSpeed: 14
   spawnOffset: 0.5
-  spawnDirection: 1
+  spawnDirection: -1
 --- !u!1 &251332585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732010907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.516504, y: -12.177092, z: -0.10405421}
+  m_LocalPosition: {x: 25, y: -12.177092, z: -0.10405421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1627,14 +1627,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carPrefabs:
   - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
-  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
-  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
+  - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
   maxSpawnInterval: 7
   minSpawnSpeed: 8
   maxSpawnSpeed: 14
   spawnOffset: 0.5
-  spawnDirection: 1
+  spawnDirection: -1
 --- !u!1 &786339197
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,7 +3499,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939318546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.516504, y: -6.1770916, z: -0.10405421}
+  m_LocalPosition: {x: 25, y: -6.1770916, z: -0.10405421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3520,14 +3520,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carPrefabs:
   - {fileID: 4318772093784633478, guid: f401f88abb272774da17d920ce98818f, type: 3}
-  - {fileID: 4318772093784633478, guid: 059ac63fd72aead4b8b4a9ba86d92d85, type: 3}
-  - {fileID: 4318772093784633478, guid: 6d7e94566716e7046a088a17d9bb2c8c, type: 3}
+  - {fileID: 4318772093784633478, guid: 71287d497ac410a43b2ad874b6abe74d, type: 3}
+  - {fileID: 4318772093784633478, guid: 6c0d993ecbcb0fe478fa8ce6883f9e68, type: 3}
   minSpawnInterval: 4
   maxSpawnInterval: 7
   minSpawnSpeed: 8
   maxSpawnSpeed: 14
   spawnOffset: 0.5
-  spawnDirection: 1
+  spawnDirection: -1
 --- !u!1 &1972703269
 GameObject:
   m_ObjectHideFlags: 0
