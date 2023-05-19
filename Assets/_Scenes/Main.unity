@@ -13380,7 +13380,7 @@ MonoBehaviour:
   displayText: {fileID: 1711707647}
   interactKey: 101
   triggerCollider: {fileID: 1026529210}
-  levelToLoad: Level1
+  levelToLoad: Level1Pre
 --- !u!61 &1026529213
 BoxCollider2D:
   m_ObjectHideFlags: 0
