@@ -9,6 +9,13 @@ public class PointCounter : MonoBehaviour
 
     private bool scoredThisObstacle = false; // Whether the player has already scored for the current obstacle
 
+    private GameManager gameManager; // Reference to the GameManager script
+
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>(); // Find the GameManager script in the scene
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Obstacle") && !scoredThisObstacle) // Check if the player collided with an obstacle and hasn't already scored for it
@@ -16,6 +23,8 @@ public class PointCounter : MonoBehaviour
             score++; // Add one to the player's score
             scoreText.text = "Score: " + score.ToString(); // Update the score text in the UI
             scoredThisObstacle = true; // Set the scoredThisObstacle flag to true
+
+            gameManager.IncrementScore(); // Call the IncrementScore() method in the GameManager script
         }
     }
 
