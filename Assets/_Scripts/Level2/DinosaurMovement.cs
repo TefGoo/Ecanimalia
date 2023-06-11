@@ -8,15 +8,24 @@ public class DinosaurMovement : MonoBehaviour
     [SerializeField] private float crouchSpeed = 5f; // The speed at which the player crouches and stands up
     [SerializeField] private LayerMask groundLayers; // The layers considered as ground for the player
 
+    public Sprite crouchSprite; // The sprite to use when crouching
+    public Sprite jumpSprite; // The sprite to use when jumping
+
     private bool isJumping = false; // Whether the player is currently jumping
     private bool isCrouching = false; // Whether the player is currently crouching
     private float originalScale; // The player's original scale
     private Rigidbody2D rb; // The player's rigidbody component
+    private SpriteRenderer spriteRenderer; // The player's sprite renderer component
+    private Sprite defaultSprite; // The player's default sprite
 
     void Start()
     {
         originalScale = transform.localScale.y;
         rb = GetComponent<Rigidbody2D>();
+
+        // Find the SpriteRenderer on the child object
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        defaultSprite = spriteRenderer.sprite;
     }
 
     void Update()
@@ -26,18 +35,29 @@ public class DinosaurMovement : MonoBehaviour
         {
             isJumping = true;
             rb.velocity = Vector2.up * jumpForce;
+            spriteRenderer.sprite = jumpSprite;
         }
 
         // Crouching
-        if (Input.GetKey(KeyCode.DownArrow) && !isJumping && !isCrouching)
+        if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) && !isJumping && !isCrouching)
         {
             isCrouching = true;
             StartCoroutine(CrouchRoutine());
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow) && isCrouching)
+        else if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)) && isCrouching)
         {
             isCrouching = false;
             StartCoroutine(StandUpRoutine());
+        }
+
+        // Change sprite while crouching
+        if (isCrouching)
+        {
+            spriteRenderer.sprite = crouchSprite;
+        }
+        else if (!isJumping)
+        {
+            spriteRenderer.sprite = defaultSprite;
         }
     }
 
@@ -67,6 +87,7 @@ public class DinosaurMovement : MonoBehaviour
         if (((1 << collision.gameObject.layer) & groundLayers.value) != 0)
         {
             isJumping = false;
+            spriteRenderer.sprite = defaultSprite;
         }
     }
 }
