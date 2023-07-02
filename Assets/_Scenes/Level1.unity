@@ -2600,6 +2600,46 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844]
+      value: Unity.Localization UnityEngine.Localization.LocalizedString
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: localStringScore.m_LocalVariables.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: localStringScore.m_LocalVariables.Array.data[0].name
+      value: variable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_FallbackState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: localStringScore.m_LocalVariables.Array.data[0].variable
+      value: 3892259588468899844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_WaitForCompletion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_LocalVariables.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_TableEntryReference.m_Key
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_TableEntryReference.m_KeyId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481666314906348888, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
+      propertyPath: managedReferences[3892259588468899844].m_TableReference.m_TableCollectionName
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31beb12239058dc4f927dbc3de02b24b, type: 3}
 --- !u!224 &8835533725808799913 stripped
