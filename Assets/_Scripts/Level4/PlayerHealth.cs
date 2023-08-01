@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public TextMeshProUGUI healthText;    // TMP text to display the player's health
     public GameObject gameOverObject;     // Game object to activate when the player's health reaches zero
 
-    private int currentHealth;            // Current health of the player
+    public int currentHealth;            // Current health of the player
 
     private void Start()
     {
@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void UpdateHealthText()
+    public void UpdateHealthText()
     {
         if (healthText != null)
         {

@@ -1,5 +1,4 @@
 using UnityEngine;
-using TMPro;
 
 public class RandomSpawner : MonoBehaviour
 {
@@ -10,16 +9,13 @@ public class RandomSpawner : MonoBehaviour
     public float moveDistance = 1f;  // Distance to move the sprite
     public float spawnerCooldown = 10f; // Cooldown between spawner activations
 
-    public TextMeshProUGUI scoreText; // TMP text to display the score
-
     public Sprite spriteToSpawn; // Sprite to spawn
 
-    private int score = 0;
-    private bool spawnerReady = true; // Flag to indicate if the spawner is ready to spawn
+    public bool spawnerReady = true; // Flag to indicate if the spawner is ready to spawn
 
     private void Start()
     {
-        Invoke("SpawnSprite", Random.Range(minSpawnDelay, maxSpawnDelay));
+        Invoke("SpawnSprite", spawnerCooldown);
     }
 
     private void SpawnSprite()
@@ -28,33 +24,31 @@ public class RandomSpawner : MonoBehaviour
         {
             Invoke("SpawnSprite", spawnerCooldown);
             return;
-
         }
 
         int randomIndex = Random.Range(0, spawnPoints.Length);
         Transform currentSpawnPoint = spawnPoints[randomIndex];
 
-        GameObject spriteObject = new GameObject("Sprite");
-        spriteObject.transform.position = currentSpawnPoint.position;
+        GameObject spriteObject = ObjectPooler.Instance.SpawnFromPool("Sprite", currentSpawnPoint.position, Quaternion.identity);
 
-        SpriteRenderer spriteRenderer = spriteObject.AddComponent<SpriteRenderer>();
+        SpriteRenderer spriteRenderer = spriteObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = spriteToSpawn;
 
-        BoxCollider2D collider = spriteObject.AddComponent<BoxCollider2D>();
+        BoxCollider2D collider = spriteObject.GetComponent<BoxCollider2D>();
         collider.isTrigger = true;
 
-        SpriteClickHandler clickHandler = spriteObject.AddComponent<SpriteClickHandler>();
+        SpriteClickHandler clickHandler = spriteObject.GetComponent<SpriteClickHandler>();
         clickHandler.randomSpawner = this;
 
         StartCoroutine(MoveSprite(spriteObject.transform));
 
-        Invoke("ResetSpritePosition", 4f);
+        // The mole should stay up for a complete second
+        Invoke("HideSprite", 1f);
+        Invoke("HandleMoleDespawn", 1f);
 
-        spawnerReady = false; // Set the spawner to not ready
-        Invoke("ResetSpawnerReady", spawnerCooldown); // Reset the spawner to ready after the cooldown
-
-        Invoke("SpawnSprite", Random.Range(minSpawnDelay, maxSpawnDelay));
-        StartCoroutine(DestroySpriteAfterDelay(spriteObject));
+        // Reset the spawner to ready after spawning
+        spawnerReady = false;
+        Invoke("ResetSpawnerReady", Random.Range(minSpawnDelay, maxSpawnDelay));
     }
 
     private System.Collections.IEnumerator MoveSprite(Transform spriteTransform)
@@ -76,7 +70,7 @@ public class RandomSpawner : MonoBehaviour
 
         if (spriteTransform != null)
         {
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(moveDelay);
 
             targetY = spriteTransform.position.y - moveDistance;
             startTime = Time.time;
@@ -93,58 +87,42 @@ public class RandomSpawner : MonoBehaviour
                 yield return null;
             }
         }
+
+        // Coroutine is done, so return.
+        yield break;
     }
 
-
-    private System.Collections.IEnumerator DestroySpriteAfterDelay(GameObject spriteObject)
+    private void HideSprite()
     {
-        yield return new WaitForSeconds(5f);
-        DestroySprite(spriteObject, false); // Pass 'false' to indicate destruction by time
-        PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
-        if (playerHealth != null)
+        // Hide the sprite after a complete second
+        GameObject spriteObject = ObjectPooler.Instance.SpawnFromPool("Sprite");
+        if (spriteObject != null)
         {
-            playerHealth.TakeDamage(1);
+            DestroySprite(spriteObject, false); // Pass 'false' to indicate destruction by time
         }
+    }
+
+    private void HandleMoleDespawn()
+    {
+        LevelManager.Instance.DecreaseHealth(1);
     }
 
     public void DestroySprite(GameObject spriteObject, bool destroyedByClick)
     {
         if (destroyedByClick)
         {
-            score++;
-            UpdateScoreText();
+            // If destroyed by click, do nothing, as the player clicked on the sprite
+            return;
         }
 
-        Destroy(spriteObject);
-    }
-
-    private void ResetSpritePosition()
-    {
-        // No need to reset the position in this modified version
-    }
-
-    private void UpdateScoreText()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + score.ToString();
-        }
-    }
-
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && hit.collider.tag == "Sprite")
-            {
-                DestroySprite(hit.collider.gameObject, true); // Pass 'true' to indicate destruction by click
-            }
-        }
+        // If destroyed by time, increase score and return the sprite to the object pool
+        LevelManager.Instance.IncreaseScore(1);
+        ObjectPooler.Instance.ReturnToPool("Sprite", spriteObject);
     }
 
     private void ResetSpawnerReady()
     {
         spawnerReady = true; // Reset the spawner to ready
+        SpawnSprite(); // Trigger the next spawn immediately after resetting
     }
 }

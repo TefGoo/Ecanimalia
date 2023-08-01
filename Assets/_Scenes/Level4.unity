@@ -193,6 +193,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &63544756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63544758}
+  - component: {fileID: 63544757}
+  - component: {fileID: 63544759}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &63544757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63544756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd874dba54e90247991ae258554ec8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Sprite
+    prefab: {fileID: 703181729}
+    size: 6
+--- !u!4 &63544758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63544756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2304769, y: 0.7167086, z: 0.0023735052}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &63544759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63544756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c917e4c28807b2428acef8c5c5a6f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 839624822}
+  randomSpawner: {fileID: 286097820}
+  scoreText: {fileID: 1252192214}
+  healthText: {fileID: 983862057}
+  gameOverObject: {fileID: 1619980342}
 --- !u!1 &78014184
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +381,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8467737112614076273, guid: 8b64a59f63fc527478e1e4c5bcf0bb71, type: 3}
+      propertyPath: randomSpawner
+      value: 
+      objectReference: {fileID: 286097820}
     - target: {fileID: 8467737112614076277, guid: 8b64a59f63fc527478e1e4c5bcf0bb71, type: 3}
       propertyPath: m_Name
       value: Sprite
@@ -671,8 +741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33079abf298d475408cd350d554cb071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spritesToSpawn:
-  - {fileID: 703181729}
   spawnPoints:
   - {fileID: 1086083198}
   - {fileID: 1282222817}
@@ -680,7 +748,13 @@ MonoBehaviour:
   - {fileID: 329760593}
   - {fileID: 78014185}
   - {fileID: 1897360229}
-  spawnInterval: 2
+  minSpawnDelay: 2
+  maxSpawnDelay: 5
+  moveDelay: 1
+  moveDistance: 1
+  spawnerCooldown: 10
+  spriteToSpawn: {fileID: -9095717837082945937, guid: 359d6bb94c920a948a45d4447aa9d4e5, type: 3}
+  spawnerReady: 1
 --- !u!4 &286097821
 Transform:
   m_ObjectHideFlags: 0
@@ -1207,6 +1281,7 @@ MonoBehaviour:
   maxHealth: 3
   healthText: {fileID: 983862057}
   gameOverObject: {fileID: 1619980342}
+  currentHealth: 0
 --- !u!4 &839624823
 Transform:
   m_ObjectHideFlags: 0

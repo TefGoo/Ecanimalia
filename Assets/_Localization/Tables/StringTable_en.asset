@@ -65,6 +65,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 3892259588468899842
+  - m_Id: 13160502699257856
+    m_Localized: Duck Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13873488036392960
+    m_Localized: Jaguar Level
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
