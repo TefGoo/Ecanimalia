@@ -73,6 +73,35 @@ MonoBehaviour:
     m_Localized: Jaguar Level
     m_Metadata:
       m_Items: []
+  - m_Id: 14891756662583296
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14891899369582592
+    m_Localized: 'GAME CREATED BY
+
+      Mariano Terroba
+
+      AUDIO BY
+
+      Etrok
+
+      3xBlast
+
+      Nenadsimic
+
+      Lamoot
+
+      UI
+      BUTTONS BY
+
+      Mdweller
+
+      GAME FOR ECAMBIENTAL S.C
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
