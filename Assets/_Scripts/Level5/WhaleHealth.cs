@@ -3,11 +3,14 @@ using TMPro;
 
 public class WhaleHealth : MonoBehaviour
 {
-    public int maxHealth = 8;  // Maximum health of the player (whale)
-    public GameObject gameOverObject;  // Game object to activate when player's health reaches 0
-    public TextMeshProUGUI lifeText;  // TMP text component to display the current life
+    public int maxHealth = 8;
+    public GameObject gameOverObject;
+    public TextMeshProUGUI lifeText;
 
-    private int currentHealth;  // Current health of the player
+    public float cameraShakeDuration = 0.2f;
+    public float cameraShakeIntensity = 0.1f;
+
+    private int currentHealth;
 
     private void Start()
     {
@@ -24,6 +27,12 @@ public class WhaleHealth : MonoBehaviour
             currentHealth = 0;
             HandlePlayerDeath();
         }
+        else
+        {
+            // Trigger camera shake effect
+            CameraShaker.ShakeCamera(cameraShakeDuration, cameraShakeIntensity);
+
+        }
 
         UpdateLifeText();
     }
@@ -35,7 +44,19 @@ public class WhaleHealth : MonoBehaviour
 
     private void HandlePlayerDeath()
     {
-        // Activate the game over object
+        WhaleController whaleController = GetComponent<WhaleController>();
+        if (whaleController != null)
+        {
+            whaleController.enabled = false;
+        }
+
+        ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
+        if (scoreManager != null)
+        {
+            scoreManager.StopScoring();
+        }
+        Destroy(gameObject);
+
         gameOverObject.SetActive(true);
     }
 }

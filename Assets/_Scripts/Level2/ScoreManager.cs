@@ -1,11 +1,12 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     private int score;
+
+    private bool isScoringEnabled = true;
 
     private void Start()
     {
@@ -15,10 +16,15 @@ public class ScoreManager : MonoBehaviour
 
     private void IncrementScore()
     {
-        if (!CharacterControllerDino.isGameOver)
+        if (isScoringEnabled && !CharacterControllerDino.isGameOver)
         {
             score++;
             scoreText.text = "Score: " + score.ToString();
         }
+    }
+
+    public void StopScoring()
+    {
+        isScoringEnabled = false;
     }
 }
