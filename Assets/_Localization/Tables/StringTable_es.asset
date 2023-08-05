@@ -97,6 +97,16 @@ MonoBehaviour:
       JUEGO PARA ECAMBIENTAL S.C'
     m_Metadata:
       m_Items: []
+  - m_Id: 14891756662583296
+    m_Localized: Nivel de la ballena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15962475634913280
+    m_Localized: "Mant\xE9n la ballena alejada de las peligrosas manchas de petr\xF3leo
+      que emanan del agua y esquiva los barriles de petr\xF3leo lanzados.\r\nControla
+      su movimiento con el mouse, la ballena nadar\xE1 hacia su posici\xF3n.\r\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
