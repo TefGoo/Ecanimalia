@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 3892259588468899842
   m_TableData:
   - m_Id: 20094152704
-    m_Localized: Parrot Level
+    m_Localized: Parrot level
     m_Metadata:
       m_Items: []
   - m_Id: 4604074160128
@@ -57,7 +57,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 90301657280512
-    m_Localized: Information about the animal.
+    m_Localized: Learn more
     m_Metadata:
       m_Items: []
   - m_Id: 96511907360768
@@ -66,11 +66,11 @@ MonoBehaviour:
       m_Items:
       - rid: 3892259588468899842
   - m_Id: 13160502699257856
-    m_Localized: Duck Level
+    m_Localized: Duck level
     m_Metadata:
       m_Items: []
   - m_Id: 13873488036392960
-    m_Localized: Jaguar Level
+    m_Localized: Jaguar level
     m_Metadata:
       m_Items: []
   - m_Id: 14891756662583296

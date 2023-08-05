@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 3892259588468899843
   m_TableData:
   - m_Id: 20094152704
-    m_Localized: Nivel Del Loro
+    m_Localized: Nivel del loro
     m_Metadata:
       m_Items: []
   - m_Id: 4604074160128
@@ -58,7 +58,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 90301657280512
-    m_Localized: "Informaci\xF3n sobre el animal."
+    m_Localized: "Saber m\xE1s"
     m_Metadata:
       m_Items: []
   - m_Id: 96511907360768
@@ -67,11 +67,11 @@ MonoBehaviour:
       m_Items:
       - rid: 3892259588468899843
   - m_Id: 13160502699257856
-    m_Localized: Nivel Del Pato
+    m_Localized: Nivel del pato
     m_Metadata:
       m_Items: []
   - m_Id: 13873488036392960
-    m_Localized: Nivel Del Jaguar
+    m_Localized: Nivel del jaguar
     m_Metadata:
       m_Items: []
   - m_Id: 14891899369582592
