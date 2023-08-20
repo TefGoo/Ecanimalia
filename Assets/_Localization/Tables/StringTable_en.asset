@@ -108,6 +108,10 @@ MonoBehaviour:
       the mouse, and the whale will swim towards its position.
     m_Metadata:
       m_Items: []
+  - m_Id: 21437983650770944
+    m_Localized: Human level
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
