@@ -357,7 +357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 258.77817}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131462988
@@ -382,15 +382,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Don't harm the animals!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
+  m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282027437
-  m_fontColor: {r: 0.6792453, g: 0.55268604, b: 0.22748311, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -858,8 +858,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 999
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
+  m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1172,8 +1172,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Score:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
+  m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1257,26 +1257,26 @@ PrefabInstance:
     - target: {fileID: 9045193892787467392, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 232233320}
+      objectReference: {fileID: 851549686}
     - target: {fileID: 9045193892787467392, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResumeGame
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 9045193892787467392, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PauseMenu, Assembly-CSharp
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9045193892992282741, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 851549686}
+      objectReference: {fileID: 232233320}
     - target: {fileID: 9045193892992282741, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: ResumeGame
       objectReference: {fileID: 0}
     - target: {fileID: 9045193892992282741, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: PauseMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9045193893420394069, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_Pivot.x
@@ -1373,26 +1373,26 @@ PrefabInstance:
     - target: {fileID: 9045193894111639508, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 232233320}
+      objectReference: {fileID: 851549686}
     - target: {fileID: 9045193894111639508, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 9045193894111639508, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PauseMenu, Assembly-CSharp
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9045193894720460641, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 851549686}
+      objectReference: {fileID: 232233320}
     - target: {fileID: 9045193894720460641, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Menu
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 9045193894720460641, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: PauseMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d02728c25d7b6147ae35c655ddc4a7e, type: 3}
@@ -1461,8 +1461,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
+  m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2320,7 +2320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 237.6849}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237251500
@@ -2345,15 +2345,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Out of time!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
+  m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282027437
-  m_fontColor: {r: 0.6792453, g: 0.55268604, b: 0.22748311, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
