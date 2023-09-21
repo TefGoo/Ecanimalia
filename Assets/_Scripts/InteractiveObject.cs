@@ -10,14 +10,19 @@ public class InteractiveObject : MonoBehaviour
     public Collider2D triggerCollider;
     public string levelToLoad;
 
-    private SpriteRenderer spriteRenderer;
+    public Vector3 newScale = Vector3.one; // Set your desired scale here
+
+    private SpriteRenderer childSpriteRenderer;
     private Sprite originalSprite;
+    private Vector3 originalScale;
     private bool canInteract = false;
 
     private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        originalSprite = spriteRenderer.sprite;
+        // Find the child object with a SpriteRenderer component
+        childSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        originalSprite = childSpriteRenderer.sprite;
+        originalScale = childSpriteRenderer.transform.localScale;
         displayText.gameObject.SetActive(false);
         triggerCollider.enabled = false;
     }
@@ -34,7 +39,9 @@ public class InteractiveObject : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            spriteRenderer.sprite = newSprite;
+            // Change the sprite and scale of the child object
+            childSpriteRenderer.sprite = newSprite;
+            childSpriteRenderer.transform.localScale = newScale;
             displayText.gameObject.SetActive(true);
             canInteract = true;
         }
@@ -44,7 +51,9 @@ public class InteractiveObject : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            spriteRenderer.sprite = originalSprite;
+            // Restore the original sprite and scale of the child object
+            childSpriteRenderer.sprite = originalSprite;
+            childSpriteRenderer.transform.localScale = originalScale;
             displayText.gameObject.SetActive(false);
             canInteract = false;
         }
