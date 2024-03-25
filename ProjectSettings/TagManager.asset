@@ -11,6 +11,8 @@ TagManager:
   - Car
   - Sprite
   - Target
+  - colliderTag
+  - GameOverCanvas
   layers:
   - Default
   - TransparentFX

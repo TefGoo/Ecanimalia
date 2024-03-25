@@ -12,7 +12,7 @@ public class CameraMoveOnTrigger : MonoBehaviour
         {
             hasTriggered = true;
             Camera.main.transform.Translate(new Vector3(0f, yOffset, 0f));
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 }

@@ -57,10 +57,6 @@ MonoBehaviour:
     m_Key: Info
     m_Metadata:
       m_Items: []
-  - m_Id: 96511907360768
-    m_Key: Score
-    m_Metadata:
-      m_Items: []
   - m_Id: 13160502699257856
     m_Key: Duck Level
     m_Metadata:
@@ -85,6 +81,122 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 21437983650770944
     m_Key: Human level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60554422277926912
+    m_Key: Pre3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99664351630487552
+    m_Key: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665418204246016
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665603508596736
+    m_Key: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665782353719296
+    m_Key: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99666214752907264
+    m_Key: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684277279813632
+    m_Key: Score1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99685333833379840
+    m_Key: Score2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99685825024126976
+    m_Key: Score3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99687781335592960
+    m_Key: Score5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99688204515700736
+    m_Key: Score4F
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99689206119690240
+    m_Key: Score4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99689547489898496
+    m_Key: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99690231492800512
+    m_Key: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99690398560317440
+    m_Key: DontHarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99693384741187584
+    m_Key: Timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99747221376102400
+    m_Key: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99751297153265664
+    m_Key: Gameover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99753447900082176
+    m_Key: GORestart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99753868693630976
+    m_Key: GOMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99762460385636352
+    m_Key: Life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99765507996282880
+    m_Key: HumanHow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100141078106370048
+    m_Key: Loro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100142949760004096
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100144085493641216
+    m_Key: Jagua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100147086048391168
+    m_Key: Pre2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100151731307180032
+    m_Key: Pato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100153822545211392
+    m_Key: Perrito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100155295991623680
+    m_Key: Ballena
     m_Metadata:
       m_Items: []
   m_Metadata:

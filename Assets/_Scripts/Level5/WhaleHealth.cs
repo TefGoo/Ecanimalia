@@ -39,7 +39,7 @@ public class WhaleHealth : MonoBehaviour
 
     private void UpdateLifeText()
     {
-        lifeText.text = "Life: " + currentHealth.ToString();
+        lifeText.text = currentHealth.ToString();
     }
 
     private void HandlePlayerDeath()

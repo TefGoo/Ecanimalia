@@ -21,7 +21,7 @@ public class PointCounter : MonoBehaviour
         if (other.CompareTag("Obstacle") && !scoredThisObstacle) // Check if the player collided with an obstacle and hasn't already scored for it
         {
             score++; // Add one to the player's score
-            scoreText.text = "Score: " + score.ToString(); // Update the score text in the UI
+            scoreText.text = score+ " ECAs".ToString(); // Update the score text in the UI
             scoredThisObstacle = true; // Set the scoredThisObstacle flag to true
 
             gameManager.IncrementScore(); // Call the IncrementScore() method in the GameManager script

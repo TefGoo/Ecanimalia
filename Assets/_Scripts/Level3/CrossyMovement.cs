@@ -13,25 +13,22 @@ public class CrossyMovement : MonoBehaviour
     public float xMinLimit = -18f;
     public float xMaxLimit = 18f;
     public float yMinLimit = -18f;
+    public float yMaxLimit = 162f;
 
     private void Update()
     {
         float x = transform.position.x;
         float y = transform.position.y;
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || (Input.GetKeyDown(KeyCode.UpArrow) && y < yMaxLimit))
         {
             y += moveDistance;
         }
-        else if (Input.GetKeyDown(KeyCode.S) && y > yMinLimit)
-        {
-            y -= moveDistance;
-        }
-        else if (Input.GetKeyDown(KeyCode.A) && x > xMinLimit)
+        else if (Input.GetKeyDown(KeyCode.A) || (Input.GetKeyDown(KeyCode.LeftArrow) && x > xMinLimit))
         {
             x -= moveDistance;
         }
-        else if (Input.GetKeyDown(KeyCode.D) && x < xMaxLimit)
+        else if (Input.GetKeyDown(KeyCode.D) || (Input.GetKeyDown(KeyCode.RightArrow) && x < xMaxLimit))
         {
             x += moveDistance;
         }

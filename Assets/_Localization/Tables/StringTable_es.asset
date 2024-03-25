@@ -17,7 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7479d9e5d1451484a929ce91779cf022, type: 2}
   m_Metadata:
     m_Items:
-    - rid: 3892259588468899843
+    - rid: 1715803825932337155
   m_TableData:
   - m_Id: 20094152704
     m_Localized: Nivel del loro
@@ -28,15 +28,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 83645133254656
-    m_Localized: JUGAR
+    m_Localized: Jugar
     m_Metadata:
       m_Items: []
   - m_Id: 83733553377280
-    m_Localized: "CR\xC9DITOS"
+    m_Localized: "Cr\xE9ditos"
     m_Metadata:
       m_Items: []
   - m_Id: 83984121098240
-    m_Localized: SALIR
+    m_Localized: Salir
     m_Metadata:
       m_Items: []
   - m_Id: 85257205608448
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 86037564256256
-    m_Localized: "ATR\xC1S"
+    m_Localized: "Atr\xE1s"
     m_Metadata:
       m_Items: []
   - m_Id: 88159856914432
@@ -61,11 +61,11 @@ MonoBehaviour:
     m_Localized: "Saber m\xE1s"
     m_Metadata:
       m_Items: []
-  - m_Id: 96511907360768
-    m_Localized: 'Puntaje: {0}'
+  - m_Id: 99684277279813632
+    m_Localized: 'Puntos: {0}'
     m_Metadata:
       m_Items:
-      - rid: 3892259588468899843
+      - rid: 1715803825932337155
   - m_Id: 13160502699257856
     m_Localized: Nivel del pato
     m_Metadata:
@@ -111,10 +111,179 @@ MonoBehaviour:
     m_Localized: Nivel del humano
     m_Metadata:
       m_Items: []
+  - m_Id: 60554422277926912
+    m_Localized: "Usa las flechas del teclado (o WASD)para mover al pato y ay\xFAdalo
+      a llegar a su hogar evitando ser aplastado por un auto que maneja sin cuidado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99664351630487552
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665418204246016
+    m_Localized: Reanudar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665603508596736
+    m_Localized: JUEGO PAUSADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99665782353719296
+    m_Localized: "Men\xFA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99666214752907264
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99685333833379840
+    m_Localized: 'Puntos: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 1715803825932337155
+  - m_Id: 99685825024126976
+    m_Localized: 'Puntos: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 1715803825932337155
+  - m_Id: 99687781335592960
+    m_Localized: 'Puntos: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 1715803825932337155
+  - m_Id: 99688204515700736
+    m_Localized: .
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99689206119690240
+    m_Localized: 'Puntos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99689547489898496
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99690231492800512
+    m_Localized: 'Tiempo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99690398560317440
+    m_Localized: "\xA1No hagas da\xF1o a los animales!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99693384741187584
+    m_Localized: "\xA1Se acab\xF3 el tiempo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99747221376102400
+    m_Localized: "- ECAnimalia presenta m\xFAltiples niveles, por lo que los controles
+      se explican con m\xE1s detalle en cada pantalla.\r\n- En la selecci\xF3n de
+      niveles (al entrar al juego y ver el mapa ilustrado de M\xE9xico), tomar\xE1s
+      el control del logotipo de ECAmbiental. Para desplazarte en el men\xFA de selecci\xF3n
+      de niveles, utiliza las teclas W para moverte hacia arriba, S para moverte
+      hacia abajo, A para moverte hacia la izquierda y D para moverte hacia la derecha.\r\n-
+      Hay niveles donde utilizar\xE1s el rat\xF3n. Siempre recuerda utilizar el bot\xF3n
+      izquierdo para hacer clic.\r\n- Antes de jugar cada nivel, hay una pantalla
+      que explica c\xF3mo jugar, un breve v\xEDdeo que muestra el juego y la opci\xF3n
+      de aprender m\xE1s sobre el animal que controlar\xE1s dentro del nivel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99751297153265664
+    m_Localized: "Puntuaci\xF3n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99753447900082176
+    m_Localized: Reintentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99753868693630976
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99762460385636352
+    m_Localized: 'Vida:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99765507996282880
+    m_Localized: "Los humanos han invadido las madrigueras de los perritos de la
+      pradera. Cada vez que aparezca un humano, golp\xE9alo haciendo click sobre
+      \xE9l. Si lleva casco, golp\xE9alo dos veces. \xA1Recuerda no golpear a los
+      animales!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100141078106370048
+    m_Localized: "Loro Yucateco:\r\nEl loro yucateco, tambi\xE9n conocido como \"cotorra
+      yucateca\", es una especie de loro end\xE9mica de la pen\xEDnsula de Yucat\xE1n
+      en M\xE9xico. Aunque anteriormente era una especie abundante, su poblaci\xF3n
+      ha disminuido significativamente debido a la deforestaci\xF3n, el comercio
+      ilegal de mascotas y la p\xE9rdida de su h\xE1bitat natural. Los esfuerzos
+      de conservaci\xF3n se centran en la protecci\xF3n de los bosques tropicales
+      y la implementaci\xF3n de medidas para combatir el comercio ilegal de aves.
+      La educaci\xF3n p\xFAblica tambi\xE9n desempe\xF1a un papel crucial en la concienciaci\xF3n
+      sobre la importancia de proteger esta especie \xFAnica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100142949760004096
+    m_Localized: "Atr\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100144085493641216
+    m_Localized: "Jaguar Mexicano:\r\nEl jaguar mexicano, tambi\xE9n conocido como
+      \"tigre\", es el felino m\xE1s grande de Am\xE9rica y una especie emblem\xE1tica
+      de los ecosistemas mexicanos. Sin embargo, su poblaci\xF3n se encuentra amenazada
+      debido a la p\xE9rdida de su h\xE1bitat natural, la caza furtiva y el conflicto
+      con humanos. La deforestaci\xF3n, la expansi\xF3n agr\xEDcola y la construcci\xF3n
+      de carreteras han fragmentado su territorio y reducido sus poblaciones. A pesar
+      de los esfuerzos de conservaci\xF3n, el jaguar mexicano enfrenta un futuro
+      incierto en su lucha por la supervivencia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100147086048391168
+    m_Localized: "El jaguar va por su h\xE1bitat, pero hay mucha basura en su camino.
+      Usa la barra espaciadora para saltarla, pero ten cuidado con los cazadores
+      que intentar\xE1n atraparlo. Si la bala viene muy baja, s\xE1ltala; si viene
+      alta, ag\xE1chate con la tecla S o la flecha hacia abajo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100151731307180032
+    m_Localized: "Pato Mexicano:\r\nEl pato mexicano es una especie de ave acu\xE1tica
+      que habita en los humedales y cuerpos de agua dulce de M\xE9xico. Aunque es
+      una especie relativamente com\xFAn, enfrenta amenazas como la p\xE9rdida de
+      h\xE1bitat, la contaminaci\xF3n del agua y la caza ilegal. La degradaci\xF3n
+      de los humedales y la fragmentaci\xF3n de su h\xE1bitat ponen en peligro la
+      supervivencia a largo plazo de esta especie. Los esfuerzos de conservaci\xF3n
+      se centran en la protecci\xF3n y restauraci\xF3n de sus h\xE1bitats naturales,
+      as\xED como en la regulaci\xF3n de la caza y la pesca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100153822545211392
+    m_Localized: "Perrito Llanero:\r\nEl perrito llanero es una especie de mam\xEDfero
+      end\xE9mica de Am\xE9rica del Sur, especialmente de las llanuras de Venezuela
+      y Colombia. Esta peque\xF1a criatura, tambi\xE9n conocida como zorro llanero,
+      se encuentra en peligro cr\xEDtico de extinci\xF3n debido a la p\xE9rdida de
+      su h\xE1bitat natural por la deforestaci\xF3n y la expansi\xF3n agr\xEDcola.
+      La caza ilegal y la competencia con otros depredadores tambi\xE9n han contribuido
+      a su declive. Los esfuerzos de conservaci\xF3n se centran en proteger su h\xE1bitat
+      y reducir las amenazas humanas para garantizar la supervivencia de esta especie
+      \xFAnica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100155295991623680
+    m_Localized: "Ballena Azul en M\xE9xico:\r\nLa ballena azul, el mam\xEDfero m\xE1s
+      grande del planeta, visita las aguas mexicanas como parte de su migraci\xF3n
+      estacional. Estas majestuosas criaturas marinas enfrentan diversas amenazas
+      en su h\xE1bitat, como la contaminaci\xF3n del oc\xE9ano, la colisi\xF3n con
+      embarcaciones y la disminuci\xF3n de su principal fuente de alimento, el krill.
+      Los esfuerzos de conservaci\xF3n se centran en la protecci\xF3n de sus rutas
+      migratorias, la reducci\xF3n de la contaminaci\xF3n marina y la promoci\xF3n
+      de pr\xE1cticas pesqueras sostenibles para garantizar la supervivencia de esta
+      ic\xF3nica especie."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
-    - rid: 3892259588468899843
+    - rid: 1715803825932337155
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0070f4edc6570000
+        m_Entries: 0070f4edc65700000070f4705226620100707470482762010070b4cdba2762010070f44a82296201

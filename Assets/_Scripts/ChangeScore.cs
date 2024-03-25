@@ -1,7 +1,6 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.Localization;
-using UnityEngine.Localization.Components;
 
 public class ChangeScore : MonoBehaviour
 {
