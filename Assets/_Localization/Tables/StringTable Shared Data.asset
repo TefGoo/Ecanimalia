@@ -199,6 +199,26 @@ MonoBehaviour:
     m_Key: Ballena
     m_Metadata:
       m_Items: []
+  - m_Id: 100435586954063872
+    m_Key: LoroGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436294973550592
+    m_Key: JaguarGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436583923347456
+    m_Key: PatoGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437091803230208
+    m_Key: PerroGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437587075035136
+    m_Key: WhaleGo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

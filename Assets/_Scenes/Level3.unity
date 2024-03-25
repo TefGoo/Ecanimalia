@@ -28040,6 +28040,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseMenu, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8422625100673175264, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 100436583923347456
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
 --- !u!1 &1686452880

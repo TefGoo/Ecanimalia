@@ -280,6 +280,35 @@ MonoBehaviour:
       ic\xF3nica especie."
     m_Metadata:
       m_Items: []
+  - m_Id: 100435586954063872
+    m_Localized: "El loro yucateco es un tesoro viviente de la regi\xF3n, con sus
+      brillantes plumas y su inteligencia juguetona, agregando color y vida a los
+      bosques tropicales de Yucat\xE1n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436294973550592
+    m_Localized: "El jaguar mexicano es un s\xEDmbolo de fuerza y \u200B\u200Bbelleza
+      en la naturaleza, ayudando a mantener el equilibrio de los ecosistemas donde
+      habita."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436583923347456
+    m_Localized: "El pato mexicano es una especie colorida y adaptable que encuentra
+      su hogar en los r\xEDos y lagos de M\xE9xico, a\xF1adiendo vitalidad y belleza
+      a nuestros paisajes acu\xE1ticos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437091803230208
+    m_Localized: "El perrito llanero es un valioso habitante de los campos abiertos,
+      contribuyendo a la biodiversidad y brindando alegr\xEDa con su naturaleza juguetona."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437587075035136
+    m_Localized: "La presencia de la ballena azul en M\xE9xico es un recordatorio
+      de la grandeza de nuestros oc\xE9anos y la importancia de proteger estos majestuosos
+      gigantes marinos."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

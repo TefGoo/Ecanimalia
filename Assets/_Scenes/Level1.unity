@@ -2436,6 +2436,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 3362453649381610126, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
+      propertyPath: m_text
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362453649381610126, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
+      propertyPath: m_fontSize
+      value: 18.85
+      objectReference: {fileID: 0}
     - target: {fileID: 6227040632901356473, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
       propertyPath: m_Name
       value: Game Over
@@ -2532,7 +2540,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1191725150}
-    m_RemovedComponents: []
+    - target: {fileID: 8422625100673175264, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 100435586954063872
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7831678433179271652, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d1158d00c7b3f1b4cb9755897a78b6ca, type: 3}
 --- !u!1001 &6280301257209363853
 PrefabInstance:

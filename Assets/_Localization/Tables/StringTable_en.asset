@@ -285,6 +285,33 @@ MonoBehaviour:
       of this iconic species.'
     m_Metadata:
       m_Items: []
+  - m_Id: 100435586954063872
+    m_Localized: The Yucatecan parrot is a living treasure of the region, with its
+      bright feathers and playful intelligence, adding color and life to the tropical
+      forests of Yucatan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436294973550592
+    m_Localized: The Mexican jaguar is a symbol of strength and beauty in nature,
+      helping to maintain the balance of the ecosystems where it inhabits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100436583923347456
+    m_Localized: The Mexican duck is a colorful and adaptable species that finds
+      its home in the rivers and lakes of Mexico, adding vitality and beauty to our
+      aquatic landscapes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437091803230208
+    m_Localized: The llanero dog is a valuable inhabitant of the open fields, contributing
+      to biodiversity and bringing joy with its playful nature.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100437587075035136
+    m_Localized: The presence of the blue whale in Mexico is a reminder of the greatness
+      of our oceans and the importance of protecting these majestic marine giants.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
