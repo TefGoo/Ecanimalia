@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 1715803825932337154
   m_TableData:
   - m_Id: 20094152704
-    m_Localized: Parrot level
+    m_Localized: THE YUCATECAN PARROT
     m_Metadata:
       m_Items: []
   - m_Id: 4604074160128
@@ -48,8 +48,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 88159856914432
-    m_Localized: Use the spacebar to lift the parrot and dodge the trees. Avoid colliding
-      with the top and bottom of the screen and score as many points as you can!
+    m_Localized: "\rUse the space bar to save the parrot from the forest fires caused
+      by humans, and score as many points as you can in just 1 minute."
     m_Metadata:
       m_Items: []
   - m_Id: 89392080515072
@@ -66,21 +66,21 @@ MonoBehaviour:
       m_Items:
       - rid: 1715803825932337154
   - m_Id: 13160502699257856
-    m_Localized: Duck level
+    m_Localized: THE MEXICAN DUCK
     m_Metadata:
       m_Items: []
   - m_Id: 13873488036392960
-    m_Localized: Jaguar level
+    m_Localized: THE JAGUAR
     m_Metadata:
       m_Items: []
   - m_Id: 14891756662583296
-    m_Localized: Whale level
+    m_Localized: THE BLUE WHALE
     m_Metadata:
       m_Items: []
   - m_Id: 14891899369582592
     m_Localized: 'GAME CREATED BY
 
-      Mariano Terroba
+      TefDev
 
       AUDIO BY
 
@@ -103,18 +103,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15962475634913280
-    m_Localized: Keep the whale away from dangerous oil spills emanating from the
-      water and dodge the barrels of oil being launched. Control its movement with
-      the mouse, and the whale will swim towards its position.
+    m_Localized: Using the mouse, move the whale towards the cursor position, helping
+      it to steer away from dangerous oil spills and dodging the industrial barrels
+      containing them. Endure for as long as you can without running out of lives.
     m_Metadata:
       m_Items: []
   - m_Id: 21437983650770944
-    m_Localized: Human level
+    m_Localized: THE PRAIRIE DOG
     m_Metadata:
       m_Items: []
   - m_Id: 60554422277926912
-    m_Localized: Use the arrow keys (or WASD) to move the duck and help it reach
-      its home, avoiding being crushed by a car driving recklessly.
+    m_Localized: Using the arrow keys or the WASD keys, help the duck reach its home
+      while avoiding being run over by careless drivers. You must complete 6 levels.
     m_Metadata:
       m_Items: []
   - m_Id: 99664351630487552
@@ -177,21 +177,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 99747221376102400
-    m_Localized: '- ECAnimalia features multiple levels, so controls are explained
-      in more detail on each screen.
-
-      - In the level selection (upon entering
-      the game and viewing the illustrated map of Mexico), you''ll take control of
-      the ECAmbiental logo. To navigate the level selection menu, use the W key to
-      move up, S to move down, A to move left, and D to move right.
-
-      - Some
-      levels will require the use of the mouse. Always remember to use the left mouse
-      button to click.
-
-      - Before playing each level, you''ll find a screen
-      explaining how to play, a short video showcasing the gameplay, and the option
-      to learn more about the animal you''ll be controlling within the level.'
+    m_Localized: "- ECAnimalia consists of five ecosystems, each featuring a regional
+      animal that must escape and protect itself from the destructive activities
+      of humans.\r\n- Using the ECAmbiental, S.C. logo, you can navigate to each
+      of the animals and select them by pressing the letter E on your keyboard.\r\n-
+      Before starting in each ecosystem, you will see an example explaining the game's
+      objective and how to play it.\r\n- Once in the ecosystem, use the arrow keys
+      on your keyboard or the letters WASD to move up (W), down (S), left (A), and
+      right (D), as well as the spacebar to jump.\r\n- Upon receiving your results,
+      you will also receive important information about each of the animals and,
+      most importantly, how to care for them.\r\n- Don't forget to select the \"Learn
+      More\" option before visiting the next ecosystem.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 99751297153265664
@@ -211,9 +207,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 99765507996282880
-    m_Localized: Humans have invaded the prairie dog burrows. Whenever a human appears,
-      hit them by clicking on them. If they're wearing a helmet, hit them twice.
-      Remember not to hit the animals!
+    m_Localized: Humans have destroyed the forests and burrows of this small rodent,
+      a cousin of squirrels. Every time a logger or a builder appears, eliminate
+      them by clicking on them. If they are wearing a helmet, double-click. Avoid
+      running out of time, and don't hit the animals!
     m_Metadata:
       m_Items: []
   - m_Id: 100141078106370048
@@ -244,10 +241,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 100147086048391168
-    m_Localized: The jaguar navigates its habitat, but there is a lot of trash in
-      its way. Use the space bar to jump over it, but beware of hunters who will
-      try to catch it. If the bullet comes from below, jump over it; if it comes
-      from above, crouch down with the S key or the down arrow.
+    m_Localized: With the spacebar, help the jaguar jump over the garbage it encounters
+      on its way through the jungle, but be very careful with the bullets from hunters,
+      who seek to sell its skin illegally. In addition to jumping, you can also crouch
+      using X, and score as many points as you can in just 1 minute.
     m_Metadata:
       m_Items: []
   - m_Id: 100151731307180032
@@ -264,13 +261,12 @@ MonoBehaviour:
   - m_Id: 100153822545211392
     m_Localized: 'Llanero Dog:
 
-      The llanero dog is a species of mammal endemic
-      to South America, especially the plains of Venezuela and Colombia. This small
-      creature, also known as the llanero fox, is critically endangered due to habitat
-      loss from deforestation and agricultural expansion. Illegal hunting and competition
-      with other predators have also contributed to its decline. Conservation efforts
-      focus on protecting its habitat and reducing human threats to ensure the survival
-      of this unique species.'
+      The prairie dog, or llanero dog, is an endemic
+      rodent of South America, and the Sciuridae family is specifically endemic to
+      Mexico. Its treatment as an agricultural pest has led it to its endangered
+      species status. Illegal hunting and competition with other predators have also
+      contributed to its decline. Conservation efforts focus on protecting its habitat
+      and reducing human threats to ensure the survival of this unique species.'
     m_Metadata:
       m_Items: []
   - m_Id: 100155295991623680
@@ -288,28 +284,32 @@ MonoBehaviour:
   - m_Id: 100435586954063872
     m_Localized: The Yucatecan parrot is a living treasure of the region, with its
       bright feathers and playful intelligence, adding color and life to the tropical
-      forests of Yucatan.
+      forests of Yucatan. Stop the destruction of the forests and jungles in southeastern
+      Mexico!
     m_Metadata:
       m_Items: []
   - m_Id: 100436294973550592
     m_Localized: The Mexican jaguar is a symbol of strength and beauty in nature,
-      helping to maintain the balance of the ecosystems where it inhabits.
+      helping to maintain the balance of the ecosystems where it inhabits. There
+      are very few jaguars left that we must protect from illegal hunting and the
+      destruction of the jungle in southeastern Mexico.
     m_Metadata:
       m_Items: []
   - m_Id: 100436583923347456
-    m_Localized: The Mexican duck is a colorful and adaptable species that finds
-      its home in the rivers and lakes of Mexico, adding vitality and beauty to our
-      aquatic landscapes.
+    m_Localized: The Mexican duck lives near the rivers and lakes of the country.
+      Say no to the destruction of its habitat and the construction of more unnecessary
+      highways!
     m_Metadata:
       m_Items: []
   - m_Id: 100437091803230208
-    m_Localized: The llanero dog is a valuable inhabitant of the open fields, contributing
-      to biodiversity and bringing joy with its playful nature.
+    m_Localized: The prairie dog is a valuable inhabitant... Remember to never hit
+      or mistreat animals and always take care of their habitat!
     m_Metadata:
       m_Items: []
   - m_Id: 100437587075035136
     m_Localized: The presence of the blue whale in Mexico is a reminder of the greatness
       of our oceans and the importance of protecting these majestic marine giants.
+      Stop oil activities!
     m_Metadata:
       m_Items: []
   references:

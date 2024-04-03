@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 1715803825932337155
   m_TableData:
   - m_Id: 20094152704
-    m_Localized: Nivel del loro
+    m_Localized: EL LORO YUCATECO
     m_Metadata:
       m_Items: []
   - m_Id: 4604074160128
@@ -48,9 +48,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 88159856914432
-    m_Localized: "Utiliza la barra espaciadora para elevar al loro y esquivar los
-      \xE1rboles. Evita chocar con la parte superior e inferior de la pantalla \xA1y
-      consigue cuantos puntos puedas!"
+    m_Localized: "Utiliza la barra espaciadora para salvar al loro de los incendios
+      forestales provocados por los seres humanos, y consigue tantos puntos como
+      puedas en tan s\xF3lo 1 minuto."
     m_Metadata:
       m_Items: []
   - m_Id: 89392080515072
@@ -67,17 +67,17 @@ MonoBehaviour:
       m_Items:
       - rid: 1715803825932337155
   - m_Id: 13160502699257856
-    m_Localized: Nivel del pato
+    m_Localized: EL PATO MEXICANO
     m_Metadata:
       m_Items: []
   - m_Id: 13873488036392960
-    m_Localized: Nivel del jaguar
+    m_Localized: EL JAGUAR
     m_Metadata:
       m_Items: []
   - m_Id: 14891899369582592
     m_Localized: 'JUEGO CREADO POR
 
-      Mariano Terroba
+      TefDev
 
       AUDIO POR
 
@@ -98,22 +98,26 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14891756662583296
-    m_Localized: Nivel de la ballena
+    m_Localized: LA BALLENA AZUL
     m_Metadata:
       m_Items: []
   - m_Id: 15962475634913280
-    m_Localized: "Mant\xE9n la ballena alejada de las peligrosas manchas de petr\xF3leo
-      que emanan del agua y esquiva los barriles de petr\xF3leo lanzados.\r\nControla
-      su movimiento con el mouse, la ballena nadar\xE1 hacia su posici\xF3n.\r\n"
+    m_Localized: "Usando el mouse mueve la ballena hac\xEDa posici\xF3n del cursor,
+      ayud\xE1ndola a alejarse de\r\nlas peligrosas manchas de petr\xF3leo derramado
+      y esquivando los barriles industriales que lo\r\ncontienen. Aguanta lo m\xE1s
+      que puedas sin que se terminen tus vidas."
     m_Metadata:
       m_Items: []
   - m_Id: 21437983650770944
-    m_Localized: Nivel del humano
+    m_Localized: 'EL PERRITO DE LA PRADERA '
     m_Metadata:
       m_Items: []
   - m_Id: 60554422277926912
-    m_Localized: "Usa las flechas del teclado (o WASD)para mover al pato y ay\xFAdalo
-      a llegar a su hogar evitando ser aplastado por un auto que maneja sin cuidado."
+    m_Localized: 'Usando las flechas o letras WASD, ayuda al pato a llegar a su hogar
+      evitando ser atropellado por
+
+      alguno de los conductores que maneja sin
+      cuidado. Debes completar 6 niveles.'
     m_Metadata:
       m_Items: []
   - m_Id: 99664351630487552
@@ -176,16 +180,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 99747221376102400
-    m_Localized: "- ECAnimalia presenta m\xFAltiples niveles, por lo que los controles
-      se explican con m\xE1s detalle en cada pantalla.\r\n- En la selecci\xF3n de
-      niveles (al entrar al juego y ver el mapa ilustrado de M\xE9xico), tomar\xE1s
-      el control del logotipo de ECAmbiental. Para desplazarte en el men\xFA de selecci\xF3n
-      de niveles, utiliza las teclas W para moverte hacia arriba, S para moverte
-      hacia abajo, A para moverte hacia la izquierda y D para moverte hacia la derecha.\r\n-
-      Hay niveles donde utilizar\xE1s el rat\xF3n. Siempre recuerda utilizar el bot\xF3n
-      izquierdo para hacer clic.\r\n- Antes de jugar cada nivel, hay una pantalla
-      que explica c\xF3mo jugar, un breve v\xEDdeo que muestra el juego y la opci\xF3n
-      de aprender m\xE1s sobre el animal que controlar\xE1s dentro del nivel."
+    m_Localized: "- ECAnimalia est\xE1 integrado por cinco ecosistemas y, en cada
+      uno, un animal de la regi\xF3n\r\nque debe escapar y protegerse de las actividades
+      destructivas de los seres humanos.\r\n- Utilizando el logotipo de ECAmbiental,
+      S.C. puedes moverte hacia cada uno de los\r\nanimales y seleccionarlo con la
+      letra E de tu teclado.\r\n- Antes de comenzar en cada ecosistema, observar\xE1s
+      un ejemplo explicando el objetivo del juego, y c\xF3mo jugarlo.\r\n- Una vez
+      en el ecosistema, utiliza las flechas de tu teclado o las letras WASD para\r\ndesplazarte
+      hacia arriba (W), abajo (S), izquierda (A) y derecha (D); as\xED como la barra\r\nespaciadora
+      para brincar.\r\n- Al recibir tus resultados, tambi\xE9n recibir\xE1s informaci\xF3n
+      importante sobre cada uno de los animales y, lo m\xE1s importante: c\xF3mo
+      cuidarlos.\r\n- No olvides seleccionar la opci\xF3n \"Saber m\xE1s\", antes
+      de visitar el siguiente ecosistema.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 99751297153265664
@@ -205,10 +211,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 99765507996282880
-    m_Localized: "Los humanos han invadido las madrigueras de los perritos de la
-      pradera. Cada vez que aparezca un humano, golp\xE9alo haciendo click sobre
-      \xE9l. Si lleva casco, golp\xE9alo dos veces. \xA1Recuerda no golpear a los
-      animales!"
+    m_Localized: "Los humanos hemos destruido los bosques y las madrigueras de este
+      peque\xF1o roedor, primo de\r\nlas ardillas. Cada vez que aparezca un talamontes
+      o un constructor, elim\xEDnalo haciendo click sobre\r \xE9l. Si lleva casco,
+      haz doble clic. Evita que el tiempo se agote, y no golpees a los animales."
     m_Metadata:
       m_Items: []
   - m_Id: 100141078106370048
@@ -239,10 +245,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 100147086048391168
-    m_Localized: "El jaguar va por su h\xE1bitat, pero hay mucha basura en su camino.
-      Usa la barra espaciadora para saltarla, pero ten cuidado con los cazadores
-      que intentar\xE1n atraparlo. Si la bala viene muy baja, s\xE1ltala; si viene
-      alta, ag\xE1chate con la tecla S o la flecha hacia abajo."
+    m_Localized: "Con la barra espaciadora, ayuda al jaguar a brincar la basura que
+      encuentra en su camino por la selva, pero ten mucho cuidado con las balas de
+      los cazadores, quienes buscan vender su piel en forma ilegal. Adem\xE1s de
+      brincar, tambi\xE9n puedes agacharte utilizando X. Consigue tantos puntos como
+      puedas en tan s\xF3lo 1 minuto."
     m_Metadata:
       m_Items: []
   - m_Id: 100151731307180032
@@ -257,15 +264,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 100153822545211392
-    m_Localized: "Perrito Llanero:\r\nEl perrito llanero es una especie de mam\xEDfero
-      end\xE9mica de Am\xE9rica del Sur, especialmente de las llanuras de Venezuela
-      y Colombia. Esta peque\xF1a criatura, tambi\xE9n conocida como zorro llanero,
-      se encuentra en peligro cr\xEDtico de extinci\xF3n debido a la p\xE9rdida de
-      su h\xE1bitat natural por la deforestaci\xF3n y la expansi\xF3n agr\xEDcola.
-      La caza ilegal y la competencia con otros depredadores tambi\xE9n han contribuido
-      a su declive. Los esfuerzos de conservaci\xF3n se centran en proteger su h\xE1bitat
-      y reducir las amenazas humanas para garantizar la supervivencia de esta especie
-      \xFAnica."
+    m_Localized: "Perrito Llanero:\r\nEl perrito de la pradera o perrito llanero,
+      es un roedor end\xE9mico de Am\xE9rica del Sur, y la familia Sciuridae es espec\xEDficamente
+      end\xE9mica de M\xE9xico. Su trato como una plaga de la agricultura lo han
+      conducido a su estado de especie en peligro de extinci\xF3n. La caza ilegal
+      y la competencia con otros depredadores tambi\xE9n han contribuido a su declive.
+      Los esfuerzos de conservaci\xF3n se centran en proteger su h\xE1bitat y reducir
+      las amenazas humanas para garantizar la supervivencia de esta especie \xFAnica."
     m_Metadata:
       m_Items: []
   - m_Id: 100155295991623680
@@ -283,30 +288,32 @@ MonoBehaviour:
   - m_Id: 100435586954063872
     m_Localized: "El loro yucateco es un tesoro viviente de la regi\xF3n, con sus
       brillantes plumas y su inteligencia juguetona, agregando color y vida a los
-      bosques tropicales de Yucat\xE1n."
+      bosques tropicales de Yucat\xE1n. \xA1Alto a la destrucci\xF3n de los bosques
+      y las selvas del sureste mexicano!"
     m_Metadata:
       m_Items: []
   - m_Id: 100436294973550592
     m_Localized: "El jaguar mexicano es un s\xEDmbolo de fuerza y \u200B\u200Bbelleza
       en la naturaleza, ayudando a mantener el equilibrio de los ecosistemas donde
-      habita."
+      habita. Quedan muy pocos jaguares que debemos proteger de la caza ilegal y
+      de la destrucci\xF3n de la selva en el sureste de M\xE9xico."
     m_Metadata:
       m_Items: []
   - m_Id: 100436583923347456
-    m_Localized: "El pato mexicano es una especie colorida y adaptable que encuentra
-      su hogar en los r\xEDos y lagos de M\xE9xico, a\xF1adiendo vitalidad y belleza
-      a nuestros paisajes acu\xE1ticos."
+    m_Localized: "El pato mexicano vive cerca de los r\xEDos y lagos del pa\xEDs,
+      \xA1di no a la destrucci\xF3n de su\r\nh\xE1bitat y a la construcci\xF3n de
+      m\xE1s autopistas innecesarias!"
     m_Metadata:
       m_Items: []
   - m_Id: 100437091803230208
-    m_Localized: "El perrito llanero es un valioso habitante de los campos abiertos,
-      contribuyendo a la biodiversidad y brindando alegr\xEDa con su naturaleza juguetona."
+    m_Localized: "El perrito de la pradera es un valioso habitante\u2026\xA1Recuerda
+      nunca golpear ni maltratar a los animales y siempre cuidar de su h\xE1bitat!\r"
     m_Metadata:
       m_Items: []
   - m_Id: 100437587075035136
     m_Localized: "La presencia de la ballena azul en M\xE9xico es un recordatorio
       de la grandeza de nuestros oc\xE9anos y la importancia de proteger estos majestuosos
-      gigantes marinos."
+      gigantes marinos. \xA1Alto a las actividades petroleras!"
     m_Metadata:
       m_Items: []
   references:

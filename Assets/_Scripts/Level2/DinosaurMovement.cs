@@ -39,12 +39,12 @@ public class DinosaurMovement : MonoBehaviour
         }
 
         // Crouching
-        if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) && !isJumping && !isCrouching)
+        if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.X)) && !isJumping && !isCrouching)
         {
             isCrouching = true;
             StartCoroutine(CrouchRoutine());
         }
-        else if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)) && isCrouching)
+        else if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.X)) && isCrouching)
         {
             isCrouching = false;
             StartCoroutine(StandUpRoutine());
