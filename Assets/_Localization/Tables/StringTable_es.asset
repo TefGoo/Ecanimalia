@@ -113,11 +113,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 60554422277926912
-    m_Localized: 'Usando las flechas o letras WASD, ayuda al pato a llegar a su hogar
-      evitando ser atropellado por
-
-      alguno de los conductores que maneja sin
-      cuidado. Debes completar 6 niveles.'
+    m_Localized: Usando las flechas o letras WASD, ayuda al pato a llegar a su hogar
+      evitando ser atropellado por alguno de los conductores que maneja sin cuidado.
+      Debes completar 6 niveles.
     m_Metadata:
       m_Items: []
   - m_Id: 99664351630487552
@@ -213,7 +211,7 @@ MonoBehaviour:
   - m_Id: 99765507996282880
     m_Localized: "Los humanos hemos destruido los bosques y las madrigueras de este
       peque\xF1o roedor, primo de\r\nlas ardillas. Cada vez que aparezca un talamontes
-      o un constructor, elim\xEDnalo haciendo click sobre\r \xE9l. Si lleva casco,
+      o un constructor, elim\xEDnalo haciendo click sobre \xE9l.\n Si lleva casco,
       haz doble clic. Evita que el tiempo se agote, y no golpees a los animales."
     m_Metadata:
       m_Items: []

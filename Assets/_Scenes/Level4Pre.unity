@@ -300,7 +300,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Los humanos hemos destruido los bosques y las madrigueras de este peque\xF1o
     roedor, primo de\r\nlas ardillas. Cada vez que aparezca un talamontes o un constructor,
-    elim\xEDnalo haciendo click sobre\r\n\xE9l. Si lleva el caso, haz doble clic."
+    elim\xEDnalo haciendo click sobre \xE9l.\n Si lleva casco, haz doble clic. Evita
+    que el tiempo se agote, y no golpees a los animales."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d948a9d0afb95794697629c64ffee764, type: 2}
   m_sharedMaterial: {fileID: -2261818367868202091, guid: d948a9d0afb95794697629c64ffee764, type: 2}
@@ -327,10 +328,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 17.4
+  m_fontSize: 16.8
+  m_fontSizeBase: 16.8
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3198,7 +3199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 256.7566, y: 112.35577}
+  m_AnchoredPosition: {x: 237.1, y: 112.35577}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1668760551
